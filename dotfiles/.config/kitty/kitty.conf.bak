@@ -1,0 +1,5 @@
+font_family JetBrainsMono Nerd Font
+font_size 12
+initial_window_width 110c
+initial_window_height 32c
+include theme.conf

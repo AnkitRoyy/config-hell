@@ -1,0 +1,11 @@
+[Unit]
+Description=daily backup timer
+Requires=dotbackup.service
+
+[Timer]
+OnCalendar=*-*-* 23:00:00
+Persistent=true
+RandomizedDelaySec=5min
+
+[Install]
+WantedBy=timers.target
