@@ -1,2 +1,0 @@
-com.mattjakeman.ExtensionManager
-com.vixalien.sticky
