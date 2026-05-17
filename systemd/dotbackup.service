@@ -1,0 +1,16 @@
+[Unit]
+Description=Daily Ubuntu dotfiles & system backup to GitHub
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+# Change this to your actual repo path
+ExecStart=/home/%u/dotbackup/scripts/backup.sh
+StandardOutput=journal
+StandardError=journal
+# Give it a unique log identifier
+SyslogIdentifier=dotbackup
+
+[Install]
+WantedBy=default.target

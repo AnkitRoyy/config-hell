@@ -1,0 +1,15 @@
+[Unit]
+Description=Daily Ubuntu backup timer
+Requires=dotbackup.service
+
+[Timer]
+# Run daily at 11:00 PM
+OnCalendar=*-*-* 23:00:00
+# THIS IS THE KEY DIFFERENCE vs cron:
+# If PC was off at 11 PM, run backup as soon as it boots up
+Persistent=true
+# Spread the start time by up to 5 min (avoids hammering at exact midnight)
+RandomizedDelaySec=5min
+
+[Install]
+WantedBy=timers.target
