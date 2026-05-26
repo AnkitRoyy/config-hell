@@ -344,6 +344,7 @@ gir1.2-ibus-1.0:amd64
 gir1.2-javascriptcoregtk-4.1:amd64
 gir1.2-javascriptcoregtk-6.0:amd64
 gir1.2-mutter-14:amd64
+gir1.2-nautilus-4.0:amd64
 gir1.2-nm-1.0:amd64
 gir1.2-nma4-1.0:amd64
 gir1.2-notify-0.7:amd64
@@ -1349,6 +1350,7 @@ libgtk2.0-0t64:amd64
 libgtk2.0-bin
 libgtk2.0-common
 libgtk3-perl
+libgtkd-3-0:amd64
 libgtkmm-2.4-1t64:amd64
 libgtkmm-3.0-1t64:amd64
 libgtkmm-4.0-0:amd64
@@ -2067,6 +2069,7 @@ libperl5.38t64:amd64
 libpfm4:amd64
 libpgm-5.3-0t64:amd64
 libpgm-dev:amd64
+libphobos2-ldc-shared106:amd64
 libphonenumber8:amd64
 libpinyin-data:amd64
 libpinyin15:amd64
@@ -2628,6 +2631,7 @@ libvpx9:amd64
 libvpx9:i386
 libvte-2.91-0:amd64
 libvte-2.91-common
+libvted-3-0:amd64
 libvterm0:amd64
 libvtk9-dev
 libvtk9-java
@@ -3287,6 +3291,7 @@ python3-mutagen
 python3-mypy
 python3-mypy-extensions
 python3-nacl
+python3-nautilus
 python3-netaddr
 python3-netifaces:amd64
 python3-netplan
@@ -4027,6 +4032,8 @@ tesseract-ocr-eng
 tesseract-ocr-osd
 testng
 thermald
+tilix
+tilix-common
 time
 tk
 tk-dev:amd64
