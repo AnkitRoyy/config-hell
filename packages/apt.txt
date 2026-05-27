@@ -113,6 +113,7 @@ clang
 clang-18
 cloud-guest-utils
 cloud-init
+cloudflare-warp
 cmake
 cmake-data
 colord
@@ -517,6 +518,7 @@ imagemagick
 imagemagick-6-common
 imagemagick-6.q16
 inetutils-telnet
+inetutils-traceroute
 info
 init
 init-system-helpers
@@ -1860,6 +1862,7 @@ libnss-mdns:amd64
 libnss-sss:amd64
 libnss-systemd:amd64
 libnss3:amd64
+libnss3-tools
 libntfs-3g89t64:amd64
 libnuma-dev:amd64
 libnuma1:amd64
