@@ -50,9 +50,6 @@ apt-config-icons-hidpi
 apt-utils
 aptdaemon
 aptdaemon-data
-arduino-builder
-arduino-core-avr
-arduino-ctags
 aria2
 aspell
 aspell-en
@@ -63,7 +60,6 @@ autoconf
 automake
 autotools-dev
 avahi-daemon
-avr-libc
 avrdude
 babeltrace
 baobab
@@ -77,7 +73,6 @@ bind9-dnsutils
 bind9-host
 bind9-libs:amd64
 binutils
-binutils-avr
 binutils-common:amd64
 binutils-x86-64-linux-gnu
 blt
@@ -214,7 +209,6 @@ evince
 evince-common
 evolution-data-server
 evolution-data-server-common
-extra-xdg-menus
 eza
 f2fs-tools
 fakeroot
@@ -288,7 +282,6 @@ gcc-13-base:amd64
 gcc-13-x86-64-linux-gnu
 gcc-14-base:amd64
 gcc-14-base:i386
-gcc-avr
 gcc-x86-64-linux-gnu
 gcr
 gcr4
@@ -641,7 +634,6 @@ libass9:amd64
 libassimp-dev:amd64
 libassimp5:amd64
 libassuan0:amd64
-libastylej-jni:amd64
 libasync-interrupt-perl
 libasyncns0:amd64
 libasyncns0:i386
@@ -697,7 +689,6 @@ libayatana-indicator3-7:amd64
 libbabeltrace1:amd64
 libbabl-0.1-0:amd64
 libbasicobjects0t64:amd64
-libbatik-java
 libbcel-java
 libbcpg-java
 libbcprov-java
@@ -935,7 +926,6 @@ libcommons-cli-java
 libcommons-codec-java
 libcommons-collections3-java
 libcommons-compress-java
-libcommons-exec-java
 libcommons-io-java
 libcommons-lang-java
 libcommons-lang3-java
@@ -1158,7 +1148,6 @@ libfribidi-dev:amd64
 libfribidi0:amd64
 libfribidi0:i386
 libfsverity0:amd64
-libftdi1:amd64
 libftdi1-2:amd64
 libfuse2t64:amd64
 libfuse3-3:amd64
@@ -1356,8 +1345,6 @@ libgtkd-3-0:amd64
 libgtkmm-2.4-1t64:amd64
 libgtkmm-3.0-1t64:amd64
 libgtkmm-4.0-0:amd64
-libgtksourceview-4-0:amd64
-libgtksourceview-4-common
 libgtksourceview-5-0:amd64
 libgtksourceview-5-common
 libgtop-2.0-11:amd64
@@ -1418,7 +1405,6 @@ libheif-plugin-libde265:i386
 libheif1:amd64
 libheif1:i386
 libhfstospell11:amd64
-libhidapi-libusb0:amd64
 libhogweed6t64:amd64
 libhogweed6t64:i386
 libhpmud0:amd64
@@ -1488,9 +1474,6 @@ libiw30t64:amd64
 libixml11t64:amd64
 libjack-jackd2-0:amd64
 libjack-jackd2-0:i386
-libjackson2-annotations-java
-libjackson2-core-java
-libjackson2-databind-java
 libjansi-java
 libjansi-native-java
 libjansi1-java
@@ -1515,10 +1498,8 @@ libjetty9-java
 libjformatstring-java
 libjgit-java
 libjline2-java
-libjmdns-java
 libjna-java
 libjna-jni
-libjna-platform-java
 libjpeg-dev:amd64
 libjpeg-turbo8:amd64
 libjpeg-turbo8:i386
@@ -1549,7 +1530,6 @@ libjsoup-java
 libjsp-api-java
 libjsr166y-java
 libjsr305-java
-libjssc-java
 libjxl-dev:amd64
 libjxl0.7:amd64
 libjxr-tools
@@ -1698,12 +1678,9 @@ liblept5:amd64
 liblerc-dev:amd64
 liblerc4:amd64
 liblibreoffice-java
-liblightcouch-java
 liblilv-0-0:amd64
 liblinear4:amd64
 liblirc-client0t64:amd64
-liblistserialsj-dev:amd64
-liblistserialsj1:amd64
 libllvm15t64:amd64
 libllvm17t64:amd64
 libllvm18:amd64
@@ -1711,7 +1688,6 @@ libllvm20:amd64
 libllvm20:i386
 liblmdb0:amd64
 liblocale-gettext-perl
-liblog4j2-java
 liblogback-java
 liblouis-data
 liblouis20:amd64
@@ -1779,7 +1755,6 @@ libmm-glib0:amd64
 libmng2:amd64
 libmnl0:amd64
 libmodulemd2:amd64
-libmongodb-java
 libmount-dev:amd64
 libmount1:amd64
 libmount1:i386
@@ -1862,7 +1837,6 @@ libnss-mdns:amd64
 libnss-sss:amd64
 libnss-systemd:amd64
 libnss3:amd64
-libnss3-tools
 libntfs-3g89t64:amd64
 libnuma-dev:amd64
 libnuma1:amd64
@@ -2318,7 +2292,6 @@ librsvg2-2:amd64
 librsvg2-2:i386
 librsvg2-common:amd64
 librsvg2-common:i386
-librsyntaxtextarea-java
 librtmp1:amd64
 librtmp1:i386
 librttopo-dev:amd64
@@ -2326,7 +2299,6 @@ librttopo1:amd64
 librubberband2:amd64
 libruby:amd64
 libruby3.2:amd64
-librxtx-java
 librygel-core-2.8-0:amd64
 librygel-db-2.8-0:amd64
 librygel-renderer-2.8-0:amd64
@@ -2356,7 +2328,6 @@ libselinux1:i386
 libselinux1-dev:amd64
 libsemanage-common
 libsemanage2:amd64
-libsemver-java
 libsensors-config
 libsensors5:amd64
 libsensors5:i386
@@ -2364,7 +2335,6 @@ libsepol-dev:amd64
 libsepol2:amd64
 libserd-0-0:amd64
 libserf-1-1:amd64
-libserialport0:amd64
 libservlet-api-java
 libservlet3.1-java
 libsframe1:amd64
@@ -2587,7 +2557,6 @@ liburdfdom-world4.0:amd64
 liburi-perl
 liburiparser-dev
 liburiparser1:amd64
-libusb-0.1-4:amd64
 libusb-1.0-0:amd64
 libusb-1.0-0:i386
 libusb-1.0-0-dev:amd64
@@ -2805,7 +2774,6 @@ libxml2:i386
 libxml2-dev:amd64
 libxml2-utils
 libxmlb2:amd64
-libxmlgraphics-commons-java
 libxmlsec1t64:amd64
 libxmlsec1t64-nss:amd64
 libxmu-dev:amd64
@@ -2884,16 +2852,13 @@ linux-base
 linux-firmware
 linux-generic
 linux-generic-hwe-24.04
-linux-headers-6.17.0-23-generic
-linux-headers-6.17.0-29-generic
-linux-headers-6.8.0-117
-linux-headers-6.8.0-117-generic
+linux-headers-6.17.0-35-generic
+linux-headers-6.8.0-124
+linux-headers-6.8.0-124-generic
 linux-headers-generic
 linux-headers-generic-hwe-24.04
-linux-hwe-6.17-headers-6.17.0-23
-linux-hwe-6.17-headers-6.17.0-29
-linux-hwe-6.17-tools-6.17.0-23
-linux-hwe-6.17-tools-6.17.0-29
+linux-hwe-6.17-headers-6.17.0-35
+linux-hwe-6.17-tools-6.17.0-35
 linux-image-6.14.0-36-generic
 linux-image-6.14.0-37-generic
 linux-image-6.17.0-14-generic
@@ -2902,6 +2867,7 @@ linux-image-6.17.0-20-generic
 linux-image-6.17.0-22-generic
 linux-image-6.17.0-23-generic
 linux-image-6.17.0-29-generic
+linux-image-6.17.0-35-generic
 linux-image-6.8.0-100-generic
 linux-image-6.8.0-101-generic
 linux-image-6.8.0-106-generic
@@ -2909,6 +2875,7 @@ linux-image-6.8.0-107-generic
 linux-image-6.8.0-110-generic
 linux-image-6.8.0-111-generic
 linux-image-6.8.0-117-generic
+linux-image-6.8.0-124-generic
 linux-image-generic
 linux-image-generic-hwe-24.04
 linux-libc-dev:amd64
@@ -2922,6 +2889,7 @@ linux-modules-6.17.0-20-generic
 linux-modules-6.17.0-22-generic
 linux-modules-6.17.0-23-generic
 linux-modules-6.17.0-29-generic
+linux-modules-6.17.0-35-generic
 linux-modules-6.8.0-100-generic
 linux-modules-6.8.0-101-generic
 linux-modules-6.8.0-106-generic
@@ -2929,6 +2897,7 @@ linux-modules-6.8.0-107-generic
 linux-modules-6.8.0-110-generic
 linux-modules-6.8.0-111-generic
 linux-modules-6.8.0-117-generic
+linux-modules-6.8.0-124-generic
 linux-modules-extra-6.14.0-33-generic
 linux-modules-extra-6.14.0-34-generic
 linux-modules-extra-6.14.0-36-generic
@@ -2939,6 +2908,7 @@ linux-modules-extra-6.17.0-20-generic
 linux-modules-extra-6.17.0-22-generic
 linux-modules-extra-6.17.0-23-generic
 linux-modules-extra-6.17.0-29-generic
+linux-modules-extra-6.17.0-35-generic
 linux-modules-extra-6.8.0-100-generic
 linux-modules-extra-6.8.0-101-generic
 linux-modules-extra-6.8.0-106-generic
@@ -2946,11 +2916,11 @@ linux-modules-extra-6.8.0-107-generic
 linux-modules-extra-6.8.0-110-generic
 linux-modules-extra-6.8.0-111-generic
 linux-modules-extra-6.8.0-117-generic
+linux-modules-extra-6.8.0-124-generic
 linux-sound-base
-linux-tools-6.17.0-23-generic
-linux-tools-6.17.0-29-generic
-linux-tools-6.8.0-117
-linux-tools-6.8.0-117-generic
+linux-tools-6.17.0-35-generic
+linux-tools-6.8.0-124
+linux-tools-6.8.0-124-generic
 linux-tools-common
 lld:amd64
 lld-18
@@ -3048,7 +3018,6 @@ numix-icon-theme-circle
 nvidia-compute-utils-535
 nvidia-dkms-535
 nvidia-driver-535
-nvidia-firmware-535-535.288.01
 nvidia-firmware-535-535.309.01
 nvidia-kernel-common-535
 nvidia-kernel-source-535
